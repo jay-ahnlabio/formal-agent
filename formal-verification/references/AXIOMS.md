@@ -11,9 +11,10 @@
 
 | 카테고리 | 도구 |
 |----------|------|
-| **Language** | Node.js(TypeScript/pnpm), Python(uv), Rust, Go, Haskell |
-| **Framework** | Axum(Rust), Deno(TypeScript), Gin(Go) |
-| **Testing** | Vitest(TypeScript) |
+| **Language** | 선호 순: Rust → TypeScript → Haskell → Mercury → Curry. Python(uv) |
+| **Framework** | Axum/Leptos(Rust), Deno(TS 백엔드), Solid.js/Vite+(TS 프론트) |
+| **Toolchain** | vite+ 단일 CLI(vp: pnpm/oxlint/oxfmt/tsgo/rolldown), clippy+cargo-deny(Rust), ruff+ty(Python) |
+| **Testing** | vitest + fast-check(TS), cargo test + proptest(Rust), pytest + Hypothesis(Python) |
 | **Styling** | _(프로젝트별 정의)_ |
 | **State Management** | _(프로젝트별 정의)_ |
 
